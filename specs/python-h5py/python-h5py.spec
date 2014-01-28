@@ -3,13 +3,13 @@
 
 Summary: A Pythonic interface to the HDF5 binary data format
 Name: python-%{real_name}
-Version: 2.2.0
+Version: 2.2.1
 Release: 1%{?dist}
 License: BSD
 Group: Development/Libraries/Python
 URL: http://www.h5py.org/
 
-Source: http://h5py.googlecode.com/files/h5py-2.2.0.tar.gz
+Source: http://h5py.googlecode.com/files/h5py-2.2.1.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:  gcc
@@ -49,5 +49,8 @@ metaphor, indexed by name.
 %{python_sitearch}/*.egg-info
 
 %changelog
+* Tue Jan 28 2014 Chris LeBlanc <crleblanc@gmail.com> - 2.2.1-1
+- Updated to version 2.2.1.  See h5py.org for more info.
+
 * Thu Nov 28 2013 Chris LeBlanc <crleblanc@gmail.com> - 2.2.0-1
 - Initial package (basic build, no support for parallel I/O)
