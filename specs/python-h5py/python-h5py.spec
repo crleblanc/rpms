@@ -20,7 +20,7 @@ BuildRequires:  numpy
 Requires:  python >= 2.6
 Requires:  hdf5 >= 1.8.3
 Requires:  hdf5-devel >= 1.8.3
-Requires:  numpy
+Requires:  numpy >= 1.4.1
 
 %description
 H5py provides a simple, robust read/write interface to HDF5 data from Python.
